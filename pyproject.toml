@@ -1,0 +1,25 @@
+[project]
+name = "03-kaggle-house-prices"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Lukasz", email = "lukasz.musiall14@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "numpy>=2.5.3",
+    "pandas>=3.0.5",
+    "pytest>=9.1.1",
+    "ruff>=0.16.5",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+03-kaggle-house-prices = "03_kaggle_house_prices:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
