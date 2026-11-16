@@ -1,5 +1,10 @@
-*.joblib
-__pycache__/
-.ipynb_checkpoints/
+# Kaggle data – download it yourself (see README)
+data/*
+!data/.gitkeep
+
 .venv/
 venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pkl
+*.joblib
